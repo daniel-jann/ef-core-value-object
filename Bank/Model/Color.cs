@@ -40,6 +40,7 @@ namespace Bank.Model
 
     private Color()
     {
+      _hashPrefixedHexTriplet = string.Empty;
     }
 
     private Color(string hashPrefixedHexTriplet)
